@@ -1,15 +1,3 @@
-![](media/e6270f05b429c46deb5154b45a1ca7ec.png)
-
-Image Processing In Frequency Domain
-
-Image Processing
-
-Professor: Dr. Khotan Lou
-
-Mahdi Nazarian
-
-Fall 2024
-
 Contents
 
 [1. Introduction](#introduction)
@@ -155,7 +143,7 @@ Before calculating PSNR, we need to compute the Mean Squared Error between the o
 PSNR Calculation: Once we have the MSE, we can calculate the PSNR using the formula:
 
 $$
-P S N R = 1 0 \cdot l o g  1 0 ( \frac{{M A X}^{2}}{M S E} )
+P S N R = 10 \cdot \log 10 \left( \frac{{M A X}^{2}}{M S E} \right)
 $$
 
 Here, MAX represents the maximum possible pixel value of the image. For an 8-bit image, MAX is 255.
